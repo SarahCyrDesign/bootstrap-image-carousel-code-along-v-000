@@ -1,0 +1,45 @@
+
+
+/*/////// MEDIA ////////*/
+
+img, video, audio, iframe, table, form {
+  width: 100%; /* IE */
+  max-width: 100%; /* FF, Safari, Chrome */
+}
+
+/*///////LAYOUT STYLES ////////*/
+.row {
+    margin-bottom: 20px;
+}
+
+/*/////// CAROUSEL STYLES ////////*/
+
+#carouselExampleIndicators .item img {
+  height: auto;
+}
+
+.carousel-caption .d-none .d-md-block p{
+  display: none;
+}
+
+
+@media only screen and (min-width: 768px) {
+  #carouselExampleIndicators .item img {
+    height: 384px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #carouselExampleIndicators .item img {
+    height: 496px;
+  }
+  .carousel-caption .d-none .d-md-block p{
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #carouselExampleIndicators .item img {
+    height: 600px;
+  }
+}
